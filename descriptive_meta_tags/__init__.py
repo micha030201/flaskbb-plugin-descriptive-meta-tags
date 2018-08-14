@@ -116,4 +116,12 @@ def user(username):
     )
 
 
+@describe('auth.login')
+def login():
+    return render(
+        title='Page inaccessible',
+        description='Only logged-in users are permitted to see this page.'
+    )
+
+
 SETTINGS = {}

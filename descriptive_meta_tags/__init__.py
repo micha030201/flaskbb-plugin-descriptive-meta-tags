@@ -56,7 +56,7 @@ _template = '''
             <meta property="og:title" content="{{ title }}" />
             <meta name="description" content="{{ description }}" />
             <meta property="og:description" content="{{ description }}" />
-            <meta name="theme-color" content="#08c" />
+            <meta name="theme-color" content="#0087cb" />
             {% if image %}
                 <meta property="og:image" content="{{ image }}" />
             {% endif %}
